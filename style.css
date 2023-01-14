@@ -1,0 +1,60 @@
+/*Hello*/
+
+body{
+    background-color: black;
+    color:white;
+    font-family: 'Oxygen Mono', monospace
+}
+
+#title{
+    font-size:25px;
+    padding:15px;
+    border-style:solid;
+    border-color:lightgray;
+    border-radius:35px;
+    border-width:5px;
+}
+
+#title:hover{
+    background: radial-gradient(rgb(0, 17, 168), rgb(0, 0, 0));
+}
+
+#The-Fake-Button{
+    margin:20px;
+    height:50px
+}
+
+#The-Fake-Button:hover{
+    background: radial-gradient(rgb(0, 0, 0), rgb(0, 17, 168), rgb(0, 0, 0));
+}
+
+#The-Real-Button{
+    width:300px;
+    height:40px;
+    background: linear-gradient(rgb(0, 17, 168), rgb(0, 0, 0), rgb(0, 17, 168));
+    border-style:hidden;
+}
+
+.soundorgs-main{
+    font-size:20px;
+    padding:5px;
+    background: radial-gradient(rgb(0, 17, 168), rgb(0, 0, 0));
+}
+
+#secret{
+    background-color: black;
+    color:black;
+    cursor:default;
+}
+
+#footer{
+    border-top:4px;
+    border-top-style:solid;
+    border-top-color: gray;
+    text-shadow: 10px 10px 10px rgb(255, 255, 255);
+}
+
+#progress{
+    width:400px;
+    height:50px;
+}

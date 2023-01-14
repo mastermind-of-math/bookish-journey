@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Sound Identification Web App</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css'>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+        <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js'></script>
+        <script src='https://unpkg.com/ml5@0.4.3/dist/ml5.min.js'></script>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Oxygen+Mono&display=swap" rel="stylesheet">
+        <link rel='stylesheet' type='text/css' href='style.css'>
+    </head>
+    <body>
+        <center>
+            <div id='organizer' class='orgs'>
+                <div id='title' class='titleorgs'>
+                    <div id='title-text' class='titleorgs'>Sound Identification Web App</div>
+                    <div id='title-desc' class='titleorgs'>The aliens will dance depending on which sound you play.</div>
+                </div>
+                <div id='sound' class='soundorgs'>
+                    <div id='The-Fake-Button' class='soundorgs'>
+                        <button id='The-Real-Button' onclick='doNothing()'>Play</button>
+                    </div>
+                    <div id="disporg" class="soundorgs-main">
+                        <div id='sound-type' class='soundorgs-disp'>
+                            <span id='sound-type-disp-name' class='sound-type-orgs'>Sound: </span>
+                            <span id='sound-type-disp-type' class='sound-type-orgs'>none</span>
+                        </div>
+                        <div id='sound-acc' class='soundorgs-disp'>
+                            <span id='sound-acc-disp-name' class='sound-acc-orgs'>Accuracy: </span>
+                            <span id='sound-acc-disp-acc' class='sound-acc-orgs'>0.000</span>
+                            <div id="sound-acc-disp-bar" class="sound-acc-orgs">
+                                <progress id="progress" value="0" min="0" max="100"></progress>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id='img-line' class='img-org'>
+                    <span id='img-one' class='img-org' width='300' height='300'>
+                        <img src='aliens-01.png' width='300' height='300' id='a1'>
+                    </span>
+                    <span id='img-two' class='img-org' width='300' height='300'>
+                        <img src='aliens-02.png' width='300' height='300' id='a2'>
+                    </span>
+                    <span id='img-three' class='img-org' width='300' height='300'>
+                        <img src='aliens-03.png' width='300' height='300' id='a3'>
+                    </span>
+                    <span id='img-four' class='img-org' width='300' height='300'>
+                        <img src='aliens-04.png' width='300' height='300' id='a4'>
+                    </span>
+                </div>
+                <button id="secret" onclick="doSomethingSecret()">Secret</button>
+            </div>
+            <footer id="footer">Created by Owen at 1/5/2023 4:48:44 Eastern Time: copyright 2023</footer>
+        </center>
+        <script src='main.js'></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
